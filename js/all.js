@@ -21,6 +21,8 @@ $(document).ready(function () {
 });
 "use strict";
 
+//lightbox setting
+
 $(document).ready(function () {
   $('.button').click(function (event) {
     $('.text').fadeToggle(500); // fadeIn 預設隱藏的東西給打開
@@ -28,7 +30,7 @@ $(document).ready(function () {
   }); // lightbox 效果
 
   lightbox.option({
-    'resizeDuration': 1000,
+    'resizeDuration': 500,
     'wrapAround': true
   });
   $(window).load(function () {
