@@ -7234,9 +7234,9 @@ a.text-content:hover, a.text-content:focus {
 
 .img_size {
   height: 200px;
-  border: 5px solid #dcdcdc; }
-.img_lightbox_size{
-  width: 1300px;
-  height: 1300px;
+  border: 5px solid #ebebeb; }
+.img_hover:hover{
+    border: 5px solid #bdbdbd;
+    transition: all 0.1s;
 }
 /*# sourceMappingURL=all.css.map */

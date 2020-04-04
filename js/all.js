@@ -11,11 +11,9 @@ $(document).ready(function () {
       for (var i = 0; i < msg.elements.length; i++) {
         var str = '';
         //str += '<div class="col-md-3"><img id="lightbox' + [i] + '" class="img_size w-100 img-fluid" src="' + msg.elements[i].thumb + '" alt=""><p class="pt-2 pb-2 mb-0 text-content text-center">' + msg.elements[i].title + '</p></div>';
-        str += '<div class="col-md-3"><a href="' + msg.elements[i].thumb + '"data-lightbox="example-set" data-title="' + msg.elements[i].title + '"><img class="img_size w-100 img-fluid" src="' + msg.elements[i].thumb + '" alt="" /></a><p class="pt-2 pb-2 mb-0 text-content text-center">' + msg.elements[i].title + '</p></div>'
+        str += '<div class="col-md-3"><a href="' + msg.elements[i].thumb + '"data-lightbox="example-set" data-title="' + msg.elements[i].title + '"><img class="img_size w-100 img-fluid img_hover" src="' + msg.elements[i].thumb + '" alt="" /></a><p class="pt-2 pb-2 mb-0 text-content text-center">' + msg.elements[i].title + '</p></div>'
         $('#album_main').append(str);
-      }
-
-      ;
+      };
     }
   });
 });
